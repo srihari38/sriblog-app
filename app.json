@@ -1,0 +1,15 @@
+{
+  "name": "Sri hari Flask",
+  "description": "The server side of SAP IT Chat Bot DEV",
+  "image": "heroku/python",
+  "repository": "https://github.com/vmsgiridhar/sriblog-app",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "run.py test"
+      }
+    }
+  }
+}
